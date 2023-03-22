@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* position relative the object take the position where it is already but the absolute position shows
+that the position of the object change its position where we want to set.
+1st absolute child make a line top of each other */
+/*                                    z-index                 */
+/* that is the pne before arranging child to left and right and you want to know which one is on 10th position
+but infront you just look at the 1st position child so we set z-index to positions childs which one you
+want to be shows on 1st
+higher z-index value child shows at first */
+.Father{
+    width: 600px;
+    height: 300;
+    background-color: bisque;
+    margin: 20px;
+    position: relative;
+}
+
+.child1{
+    width: 100px;
+    height: 60px;
+    background-color: blue;
+    position:  absolute;
+    z-index: 1;
+    /* left: 0; */
+}
+.child2{
+    width: 100px;
+    height: 60px;                
+    background-color: green;
+    position:  absolute;
+    z-index: 3;
+    /* right: 0; */
+}
+.child3{
+    width: 100px;
+    height: 60px;
+    background-color:yellow;
+    position:  absolute;
+    z-index: 4;
+    /* bottom: 0; */
+    /* right: 0; */
+}
+.child4{
+    width: 100px;
+    height: 60px;
+    background-color: pink;
+    position:  absolute;
+    /* bottom: 0; */
+}

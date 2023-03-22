@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    width: 400px;
+    height: 300px;
+    border: 5px solid rgb(176, 116, 38);
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    overflow: scroll;
+    /* scroll and auto properties are same but the difference between is that in auto scroll option will appear only w
+    when the content is overflow */
+}

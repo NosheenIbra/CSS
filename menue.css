@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: bisque;
+}
+/* here float is used to left and right alignments of logo and menue 
+line height is used to center vertically logo */
+
+/* in this file we will use css float, css display */
+.logo{
+   line-height: 80px;
+    width: 30%;
+    background-color: blue;
+    text-align:center;
+    float: left;
+}
+.menue{
+   line-height: 80px;
+    width: 70%;
+    background-color:pink;
+    float: right;
+}
+ul{
+    /* it will remove list circles on left  side of the list */
+    list-style: none;
+    /* text-align: right; */
+    direction: rtl;
+
+}
+
+/* li{
+    display: inline;
+    border: 2px solid blue;
+} */
+
+/* li{
+    display: block;
+    border: 2px solid blue;
+} */
+
+li{
+    display: inline-block;
+    /* border: 2px solid blue; */
+    padding: 0 20;
+}
